@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>User Agent</title>
+    <link rel="stylesheet" href="/static/css/main.css"/>
+</head>
+<body>
+<h1>back-end user agent</h1>
+<div class="code">{{ua}}</div>
+<h1>browser user agent</h1>
+<div id="browser-ua" class="code"></div>
+<script>
+    document.getElementById('browser-ua').textContent = navigator.userAgent;
+</script>
+</body>
+</html>
